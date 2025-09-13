@@ -4,13 +4,13 @@
 peso = float(input("Informe seu peso em kg: "))
 altura = float(input("Informe sua altura em metros: "))
 
-# Calcular o IMC
+
 imc = peso / (altura ** 2)
 
-# Exibir o valor do IMC
+
 print(f"\nSeu IMC é: {imc:.2f}")
 
-# Diagnóstico com base no IMC
+
 if imc < 18.5:
     resultado = "Abaixo do peso"
 elif 18.5 <= imc < 24.9:
